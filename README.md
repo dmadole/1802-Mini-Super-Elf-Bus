@@ -7,6 +7,8 @@ This is a bus adapter card for the Quest Super Elf that adapts it to expansion c
 * Can temporarily map a ROM at $8000 to $0000 with M key
 * TTL level port with Q and selectable EF pin for soft serial
 * Transmit and receive polarity selectable on serial port
+* Buffered data bus for reliability across ribbon cable
+* Additional pull-up resistors for improved rise time on inputs
 * Voltage regulator allows powing expansion cards from Super Elf
 * Mini-USB connector for independent 5 volt power input
 * Form factor allows stacking or backplane by connector choice
