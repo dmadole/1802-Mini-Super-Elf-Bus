@@ -14,10 +14,9 @@ This is a bus adapter card for the Quest Super Elf that adapts it to expansion c
 * Form factor allows stacking or backplane by connector choice
 * Highly annoted silkscreen documents most settings and pins
 
-> Note that this circuit has been prototyped but the board has not yet been fabricated and tested. Treat this information as pre-release and consider that problems may still be found with the design.
-
 Gerber files for the PCBs and PDF schematics can be found in [Releases](https://github.com/dmadole/1802-Mini-Super-Elf-Bus/releases).
 
 BOMS and any applicable errata or other notes can be found in [notes](https://github.com/dmadole/1802-Mini-Super-Elf-Bus/tree/main/notes).
 
 ![1802/Mini Super Elf Bus Adapter](https://github.com/dmadole/1802-Mini-Super-Elf-Bus/raw/main/photos/1802-mini-super-elf-bus-adapter.jpg)
+![Super Elf with 1802/Mini Cards](https://github.com/dmadole/1802-Mini-Super-Elf-Bus/raw/main/photos/super-elf-with-1802-mini-cards.jpg)
