@@ -169,7 +169,7 @@ Text GLabel 14450 5875 0    60   Input ~ 0
 SC0
 Text GLabel 9050 2775 2    60   Input ~ 0
 ~CS_LO
-Text GLabel 4875 6900 2    60   Output ~ 0
+Text GLabel 4875 6825 2    60   Output ~ 0
 ~CS_LO
 $Comp
 L Connector_Generic:Conn_01x01 J1
@@ -219,17 +219,6 @@ NoConn ~ 11900 9700
 NoConn ~ 12100 9700
 NoConn ~ 12300 9700
 NoConn ~ 12500 9700
-$Comp
-L Device:C_Small C4
-U 1 1 5B248E48
-P 4600 10125
-F 0 "C4" H 4610 10195 50  0000 L CNN
-F 1 "0.1u" H 4625 10050 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4600 10125 50  0001 C CNN
-F 3 "" H 4600 10125 50  0001 C CNN
-	1    4600 10125
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13900 6775 14450 6775
 Wire Wire Line
@@ -302,10 +291,10 @@ Connection ~ 8075 8300
 Wire Wire Line
 	8075 8300 8150 8300
 $Comp
-L 4xxx:4011 U5
+L 4xxx:4011 U2
 U 5 1 5F8A8274
 P 2975 10150
-F 0 "U5" H 2900 10175 50  0000 L CNN
+F 0 "U2" H 2900 10175 50  0000 L CNN
 F 1 "4011" H 2875 10100 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2975 10150 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 2975 10150 50  0001 C CNN
@@ -353,8 +342,6 @@ Wire Wire Line
 	1225 4900 1500 4900
 Wire Wire Line
 	1225 5650 2425 5650
-Wire Wire Line
-	2450 6300 2475 6300
 Text GLabel 1200 6300 0    60   Input ~ 0
 A15
 Text GLabel 1200 6000 0    60   Input ~ 0
@@ -362,20 +349,20 @@ Text GLabel 1200 6000 0    60   Input ~ 0
 Wire Wire Line
 	2475 6100 2425 6100
 Wire Wire Line
-	1725 6300 1200 6300
-Text GLabel 1150 7575 0    60   Input ~ 0
+	2425 6300 1200 6300
+Text GLabel 1150 7475 0    60   Input ~ 0
 MEN
 Wire Wire Line
-	1150 7575 1500 7575
+	1150 7475 1500 7475
 Wire Wire Line
 	3625 6200 3075 6200
 Wire Wire Line
 	3550 5800 4300 5575
 $Comp
-L 4xxx:4071 U4
+L 4xxx:4071 U3
 U 2 1 5F8ADDB0
 P 2800 5100
-F 0 "U4" H 3025 5200 50  0000 C CNN
+F 0 "U3" H 3025 5200 50  0000 C CNN
 F 1 "4071" H 2825 5100 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2800 5100 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 2800 5100 50  0001 C CNN
@@ -383,21 +370,21 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4071 U4
+L 4xxx:4071 U3
 U 1 1 5F8AC31F
-P 2775 6200
-F 0 "U4" H 3000 6325 50  0000 C CNN
-F 1 "4071" H 2800 6200 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2775 6200 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 2775 6200 50  0001 C CNN
-	1    2775 6200
+P 4400 6825
+F 0 "U3" H 4625 6950 50  0000 C CNN
+F 1 "4071" H 4425 6825 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4400 6825 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 4400 6825 50  0001 C CNN
+	1    4400 6825
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4011 U5
+L 4xxx:4011 U2
 U 1 1 5F8A0152
 P 3925 6100
-F 0 "U5" H 4150 6225 50  0000 C CNN
+F 0 "U2" H 4150 6225 50  0000 C CNN
 F 1 "4011" H 3925 6100 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3925 6100 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 3925 6100 50  0001 C CNN
@@ -409,9 +396,9 @@ Wire Wire Line
 Wire Wire Line
 	3175 6000 3550 6000
 Wire Wire Line
-	3175 6000 3175 6700
+	3175 6000 3175 6625
 Wire Wire Line
-	3175 6700 3200 6700
+	3175 6625 3200 6625
 Wire Wire Line
 	4300 5575 4300 5100
 Wire Wire Line
@@ -425,9 +412,9 @@ Q
 Wire Wire Line
 	7275 8300 7425 8300
 Wire Wire Line
-	4700 6900 4875 6900
+	4700 6825 4875 6825
 Wire Wire Line
-	1500 7450 1500 7575
+	1500 7350 1500 7475
 Wire Wire Line
 	8375 9925 8375 9350
 Wire Wire Line
@@ -464,10 +451,10 @@ F 3 "~" H 6825 9650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D2
+L Diode:1N4148 D1
 U 1 1 5BB522A5
 P 7200 9650
-F 0 "D2" H 7200 9750 50  0000 C CNN
+F 0 "D1" H 7200 9750 50  0000 C CNN
 F 1 "4148" H 7200 9550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 9650 50  0001 C CNN
 F 3 "" H 7200 9650 50  0001 C CNN
@@ -479,12 +466,12 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR0103
 U 1 1 61B6527F
-P 1500 7125
-F 0 "#PWR0103" H 1500 6975 50  0001 C CNN
-F 1 "VCC" H 1500 7275 50  0000 C CNN
-F 2 "" H 1500 7125 50  0001 C CNN
-F 3 "" H 1500 7125 50  0001 C CNN
-	1    1500 7125
+P 1500 7025
+F 0 "#PWR0103" H 1500 6875 50  0001 C CNN
+F 1 "VCC" H 1500 7175 50  0000 C CNN
+F 2 "" H 1500 7025 50  0001 C CNN
+F 3 "" H 1500 7025 50  0001 C CNN
+	1    1500 7025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -499,10 +486,10 @@ F 3 "" H 11425 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4011 U5
+L 4xxx:4011 U2
 U 4 1 5F8A5E66
 P 4400 7375
-F 0 "U5" H 4625 7500 50  0000 C CNN
+F 0 "U2" H 4625 7500 50  0000 C CNN
 F 1 "4011" H 4400 7375 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4400 7375 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 4400 7375 50  0001 C CNN
@@ -521,18 +508,14 @@ F 3 "" H 8925 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3925 7000 4100 7000
-Wire Wire Line
-	3925 7000 3925 7475
-Wire Wire Line
-	1500 7125 1500 7150
+	1500 7025 1500 7050
 Wire Wire Line
 	4700 7375 4875 7375
 $Comp
-L 4xxx:4011 U5
+L 4xxx:4011 U2
 U 3 1 5F8A41CB
 P 1950 3100
-F 0 "U5" H 2175 3000 50  0000 C CNN
+F 0 "U2" H 2175 3000 50  0000 C CNN
 F 1 "4011" H 1950 3100 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1950 3100 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 1950 3100 50  0001 C CNN
@@ -698,10 +681,10 @@ Wire Wire Line
 	9325 9600 9325 9350
 Connection ~ 9325 9350
 $Comp
-L Device:R R19
+L Device:R R18
 U 1 1 62890C9E
 P 9325 9750
-F 0 "R19" V 9405 9750 50  0000 C CNN
+F 0 "R18" V 9405 9750 50  0000 C CNN
 F 1 "47K" V 9325 9750 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9255 9750 50  0001 C CNN
 F 3 "" H 9325 9750 50  0001 C CNN
@@ -810,17 +793,6 @@ Wire Wire Line
 	8800 2475 9375 2475
 Wire Wire Line
 	7275 2975 7800 2975
-$Comp
-L Memory_RAM:HM62256BLP U7
-U 1 1 6009A0CA
-P 8300 5425
-F 0 "U7" H 8300 5425 50  0000 C CNN
-F 1 "HI_MEM" H 8300 5350 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 8300 5325 50  0001 C CNN
-F 3 "https://web.mit.edu/6.115/www/document/62256.pdf" H 8300 5325 50  0001 C CNN
-	1    8300 5425
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	7175 5725 7275 5825
 Text Label 7350 5825 0    60   ~ 0
@@ -957,10 +929,10 @@ Wire Wire Line
 	6400 2650 6400 3400
 Connection ~ 6400 2650
 $Comp
-L Memory_RAM:HM62256BLP U8
+L Memory_RAM:HM62256BLP U6
 U 1 1 5FD4D2A1
 P 8300 2575
-F 0 "U8" H 8300 2575 50  0000 C CNN
+F 0 "U6" H 8300 2575 50  0000 C CNN
 F 1 "LO_MEM" H 8300 2500 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 8300 2475 50  0001 C CNN
 F 3 "https://web.mit.edu/6.115/www/document/62256.pdf" H 8300 2475 50  0001 C CNN
@@ -1092,10 +1064,10 @@ F 3 "" H 8300 6325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4023 U2
+L 4xxx:4023 U5
 U 1 1 61C181D9
 P 2775 1875
-F 0 "U2" H 3000 2000 50  0000 C CNN
+F 0 "U5" H 3000 2000 50  0000 C CNN
 F 1 "4023" H 2775 1875 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2775 1875 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 2775 1875 50  0001 C CNN
@@ -1103,10 +1075,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4023 U2
+L 4xxx:4023 U5
 U 3 1 61C1C5DC
 P 2775 3425
-F 0 "U2" H 3000 3550 50  0000 C CNN
+F 0 "U5" H 3000 3550 50  0000 C CNN
 F 1 "4023" H 2775 3425 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2775 3425 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 2775 3425 50  0001 C CNN
@@ -1114,10 +1086,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4023 U2
+L 4xxx:4023 U5
 U 4 1 61C21835
 P 3550 10150
-F 0 "U2" H 3475 10175 50  0000 L CNN
+F 0 "U5" H 3475 10175 50  0000 L CNN
 F 1 "4023" H 3450 10100 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3550 10150 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 3550 10150 50  0001 C CNN
@@ -1133,7 +1105,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 1650 3325 1650
 Wire Wire Line
-	2375 1875 2375 1775
+	2225 1875 2225 1775
 Text GLabel 1275 1125 0    60   Input ~ 0
 N0
 Wire Wire Line
@@ -1152,13 +1124,11 @@ Text GLabel 1275 1975 0    60   Input ~ 0
 ~CLEAR
 Wire Wire Line
 	3075 1875 3175 1875
-Wire Wire Line
-	2375 1775 2475 1775
 $Comp
-L 4xxx:4023 U2
+L 4xxx:4023 U5
 U 2 1 61C19A0C
 P 3625 1550
-F 0 "U2" H 3850 1675 50  0000 C CNN
+F 0 "U5" H 3850 1675 50  0000 C CNN
 F 1 "4023" H 3600 1525 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3625 1550 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 3625 1550 50  0001 C CNN
@@ -1166,7 +1136,7 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1275 1775 2375 1775
+	1275 1775 2225 1775
 Wire Wire Line
 	3175 1225 3175 1450
 Text GLabel 4875 1550 2    60   Output ~ 0
@@ -1192,40 +1162,29 @@ Wire Wire Line
 Wire Wire Line
 	2350 3525 2475 3525
 $Comp
-L 4xxx:4011 U5
+L 4xxx:4011 U2
 U 2 1 5F8A1B68
-P 4400 6900
-F 0 "U5" H 4650 6825 50  0000 C CNN
-F 1 "4011" H 4400 6900 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4400 6900 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 4400 6900 50  0001 C CNN
-	2    4400 6900
+P 2775 6200
+F 0 "U2" H 3025 6125 50  0000 C CNN
+F 1 "4011" H 2775 6200 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2775 6200 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 2775 6200 50  0001 C CNN
+	2    2775 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 4875 3425 2    60   Output ~ 0
+Text GLabel 4850 3525 2    60   Output ~ 0
 ~OE
 Wire Wire Line
-	4275 3425 4875 3425
+	4250 3525 4850 3525
 $Comp
-L 4xxx:4001 U3
-U 1 1 6272CD3C
-P 3500 6800
-F 0 "U3" H 3725 6925 50  0000 C CNN
-F 1 "4001" H 3525 6800 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3500 6800 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 3500 6800 50  0001 C CNN
-	1    3500 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:4001 U3
+L 4xxx:4001 U4
 U 3 1 6273325E
-P 3975 3425
-F 0 "U3" H 4225 3325 50  0000 C CNN
-F 1 "4001" H 4000 3425 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3975 3425 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 3975 3425 50  0001 C CNN
-	3    3975 3425
+P 3950 3525
+F 0 "U4" H 4200 3425 50  0000 C CNN
+F 1 "4001" H 3975 3525 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3950 3525 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 3950 3525 50  0001 C CNN
+	3    3950 3525
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1238,12 +1197,11 @@ Wire Wire Line
 	3175 2700 3175 3425
 Wire Wire Line
 	1525 3000 1650 3000
-Connection ~ 3175 3425
 $Comp
-L 74xx:74HC245 U6
+L 74xx:74HC245 U8
 U 1 1 62BA225F
 P 10600 2375
-F 0 "U6" H 10600 2150 50  0000 C CNN
+F 0 "U8" H 10600 2150 50  0000 C CNN
 F 1 "40245" H 10600 2075 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 10600 2375 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC245" H 10600 2375 50  0001 C CNN
@@ -1315,10 +1273,10 @@ Wire Wire Line
 Wire Wire Line
 	11275 2575 11100 2575
 $Comp
-L Device:R R16
+L Device:R R15
 U 1 1 62ED7E2F
 P 11425 2575
-F 0 "R16" V 11475 2400 50  0000 C CNN
+F 0 "R15" V 11475 2400 50  0000 C CNN
 F 1 "1K" V 11425 2575 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11355 2575 50  0001 C CNN
 F 3 "" H 11425 2575 50  0001 C CNN
@@ -1326,10 +1284,10 @@ F 3 "" H 11425 2575 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R15
+L Device:R R14
 U 1 1 630148BA
 P 11700 2475
-F 0 "R15" V 11750 2650 50  0000 C CNN
+F 0 "R14" V 11750 2650 50  0000 C CNN
 F 1 "1K" V 11700 2475 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11630 2475 50  0001 C CNN
 F 3 "" H 11700 2475 50  0001 C CNN
@@ -1337,10 +1295,10 @@ F 3 "" H 11700 2475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R14
+L Device:R R13
 U 1 1 63047905
 P 11425 2375
-F 0 "R14" V 11475 2200 50  0000 C CNN
+F 0 "R13" V 11475 2200 50  0000 C CNN
 F 1 "1K" V 11425 2375 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11355 2375 50  0001 C CNN
 F 3 "" H 11425 2375 50  0001 C CNN
@@ -1348,21 +1306,10 @@ F 3 "" H 11425 2375 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R13
-U 1 1 63047F7B
-P 11700 2275
-F 0 "R13" V 11750 2450 50  0000 C CNN
-F 1 "1K" V 11700 2275 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11630 2275 50  0001 C CNN
-F 3 "" H 11700 2275 50  0001 C CNN
-	1    11700 2275
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R12
+L Device:R R11
 U 1 1 6307BB65
 P 11425 2175
-F 0 "R12" V 11475 2000 50  0000 C CNN
+F 0 "R11" V 11475 2000 50  0000 C CNN
 F 1 "1K" V 11425 2175 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11355 2175 50  0001 C CNN
 F 3 "" H 11425 2175 50  0001 C CNN
@@ -1409,22 +1356,14 @@ Text GLabel 9750 2875 0    60   Input ~ 0
 $Comp
 L Connector_Generic:Conn_02x25_Top_Bottom J7
 U 1 1 63244A68
-P 14225 2825
-F 0 "J7" H 14275 4242 50  0000 C CNN
-F 1 "Super Elf Bus" H 14275 4151 50  0000 C CNN
-F 2 "1802-mini:PinHeader_2x25_P2.54mm_Horizontal_Row1_Row2" H 14225 2825 50  0001 C CNN
-F 3 "~" H 14225 2825 50  0001 C CNN
-	1    14225 2825
-	1    0    0    -1  
+P 14325 2825
+F 0 "J7" H 14375 4242 50  0000 C CNN
+F 1 "Super Elf Bus" H 14375 4151 50  0000 C CNN
+F 2 "1802-mini:PinHeader_2x25_P2.54mm_Horizontal_Row1_Row2" H 14325 2825 50  0001 C CNN
+F 3 "~" H 14325 2825 50  0001 C CNN
+	1    14325 2825
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	13700 3725 14025 3725
-Wire Wire Line
-	13700 3825 14025 3825
-Wire Wire Line
-	13700 3925 14025 3925
-Wire Wire Line
-	13700 4025 14025 4025
 Wire Wire Line
 	14525 3725 14875 3725
 Wire Wire Line
@@ -1465,14 +1404,6 @@ Wire Wire Line
 	14525 4025 14875 4025
 Entry Wire Line
 	13375 3325 13475 3225
-Wire Wire Line
-	13475 3325 14025 3325
-Wire Wire Line
-	13475 3425 14025 3425
-Wire Wire Line
-	13475 3525 14025 3525
-Wire Wire Line
-	13475 3625 14025 3625
 Text Label 13475 3625 0    60   ~ 0
 A1
 Text Label 13475 3525 0    60   ~ 0
@@ -1487,14 +1418,6 @@ Entry Wire Line
 	13375 3525 13475 3425
 Text Label 13475 3325 0    60   ~ 0
 A7
-Wire Wire Line
-	13475 2925 14025 2925
-Wire Wire Line
-	13475 3025 14025 3025
-Wire Wire Line
-	13475 3125 14025 3125
-Wire Wire Line
-	13475 3225 14025 3225
 Text Label 13475 3225 0    60   ~ 0
 A9
 Text Label 13475 3125 0    60   ~ 0
@@ -1575,46 +1498,24 @@ Connection ~ 13375 4475
 Wire Bus Line
 	13275 4325 13600 4325
 Connection ~ 13600 4325
-Wire Wire Line
-	14025 2825 13375 2825
-Wire Wire Line
-	14025 2725 13850 2725
 Text GLabel 13850 2725 0    60   Output ~ 0
 G
-Wire Wire Line
-	14025 2625 13850 2625
 Text GLabel 13850 2625 0    60   Output ~ 0
 M
-Wire Wire Line
-	14025 2525 13850 2525
 Text GLabel 13850 2525 0    60   Output ~ 0
 TPB
-Wire Wire Line
-	14025 2425 13375 2425
 Text GLabel 13375 2425 0    60   Output ~ 0
 ~MWR
-Wire Wire Line
-	14025 2325 13850 2325
 Text GLabel 13850 2325 0    60   Input ~ 0
 ~DMAIN
-Wire Wire Line
-	14025 2225 13375 2225
 Text GLabel 13375 2225 0    60   Output ~ 0
 ~MRD
-Wire Wire Line
-	14025 2125 13850 2125
 Text GLabel 13850 2125 0    60   Output ~ 0
 SC1
-Wire Wire Line
-	14025 2025 13850 2025
 Text GLabel 13850 2025 0    60   Output ~ 0
 N2
-Wire Wire Line
-	14025 1925 13850 1925
 Text GLabel 13850 1925 0    60   Output ~ 0
 N0
-Wire Wire Line
-	14025 1825 13375 1825
 Text GLabel 13375 1825 0    60   Input ~ 0
 ~EF3
 Text GLabel 13375 2825 0    60   Output ~ 0
@@ -1681,8 +1582,6 @@ F 3 "" H 13000 1625 50  0001 C CNN
 	1    13000 1625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13000 1625 14025 1625
 Wire Wire Line
 	14525 1725 14675 1725
 Text GLabel 14675 1725 2    60   Output ~ 0
@@ -1779,31 +1678,17 @@ Wire Wire Line
 	14150 5475 14450 5475
 Wire Wire Line
 	14450 5675 14150 5675
-Wire Wire Line
-	4600 10650 4900 10650
-Wire Wire Line
-	4600 9650 4900 9650
 $Comp
-L Device:C_Small C7
+L Device:C_Small C6
 U 1 1 595CF017
 P 4000 10125
-F 0 "C7" H 4010 10195 50  0000 L CNN
+F 0 "C6" H 4010 10195 50  0000 L CNN
 F 1 "0.1u" H 4025 10050 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4000 10125 50  0001 C CNN
 F 3 "" H 4000 10125 50  0001 C CNN
 	1    4000 10125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 10650 4600 10225
-Connection ~ 4600 10650
-Wire Wire Line
-	4300 10650 4600 10650
-Wire Wire Line
-	4600 9650 4600 10025
-Connection ~ 4600 9650
-Wire Wire Line
-	4300 9650 4600 9650
 Wire Wire Line
 	4000 9650 4000 10025
 Wire Wire Line
@@ -1814,9 +1699,9 @@ Connection ~ 4300 10650
 Wire Wire Line
 	4300 10225 4300 10650
 Wire Wire Line
-	4900 10650 4900 10225
+	4600 10650 4600 10225
 Wire Wire Line
-	4900 9650 4900 10025
+	4600 9650 4600 10025
 Connection ~ 4300 9650
 Wire Wire Line
 	4300 10025 4300 9650
@@ -1825,21 +1710,21 @@ Connection ~ 4000 10650
 Wire Wire Line
 	4000 10225 4000 10650
 $Comp
-L Device:C_Small C8
+L Device:C_Small C7
 U 1 1 595D2847
-P 4900 10125
-F 0 "C8" H 4910 10195 50  0000 L CNN
-F 1 "0.1u" H 4925 10050 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4900 10125 50  0001 C CNN
-F 3 "" H 4900 10125 50  0001 C CNN
-	1    4900 10125
+P 4600 10125
+F 0 "C7" H 4610 10195 50  0000 L CNN
+F 1 "0.1u" H 4625 10050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4600 10125 50  0001 C CNN
+F 3 "" H 4600 10125 50  0001 C CNN
+	1    4600 10125
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L Device:C_Small C5
 U 1 1 595D2185
 P 4300 10125
-F 0 "C6" H 4310 10195 50  0000 L CNN
+F 0 "C5" H 4310 10195 50  0000 L CNN
 F 1 "0.1u" H 4325 10050 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4300 10125 50  0001 C CNN
 F 3 "" H 4300 10125 50  0001 C CNN
@@ -2011,10 +1896,10 @@ Wire Bus Line
 Wire Bus Line
 	7075 1575 7175 1575
 $Comp
-L 4xxx:4001 U3
+L 4xxx:4001 U4
 U 4 1 699A552F
 P 2150 5000
-F 0 "U3" H 2375 5125 50  0000 C CNN
+F 0 "U4" H 2375 5125 50  0000 C CNN
 F 1 "4001" H 2175 5000 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2150 5000 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 2150 5000 50  0001 C CNN
@@ -2022,10 +1907,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4001 U3
+L 4xxx:4001 U4
 U 5 1 699A8DA3
 P 2400 10150
-F 0 "U3" H 2325 10175 50  0000 L CNN
+F 0 "U4" H 2325 10175 50  0000 L CNN
 F 1 "4001" H 2300 10100 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2400 10150 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 2400 10150 50  0001 C CNN
@@ -2105,35 +1990,35 @@ Wire Wire Line
 	11850 6525 11850 6400
 Connection ~ 11850 6400
 Wire Wire Line
-	4900 10650 5200 10650
+	4600 10650 4900 10650
 Wire Wire Line
-	4900 9650 5200 9650
+	4600 9650 4900 9650
 Wire Wire Line
-	5200 10650 5200 10225
+	4900 10650 4900 10225
 Wire Wire Line
-	5200 9650 5200 10025
+	4900 9650 4900 10025
 $Comp
-L Device:C_Small C5
+L Device:C_Small C4
 U 1 1 6A238D41
-P 5200 10125
-F 0 "C5" H 5210 10195 50  0000 L CNN
-F 1 "0.1u" H 5225 10050 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5200 10125 50  0001 C CNN
-F 3 "" H 5200 10125 50  0001 C CNN
-	1    5200 10125
+P 4900 10125
+F 0 "C4" H 4910 10195 50  0000 L CNN
+F 1 "0.1u" H 4925 10050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4900 10125 50  0001 C CNN
+F 3 "" H 4900 10125 50  0001 C CNN
+	1    4900 10125
 	1    0    0    -1  
 $EndComp
-Connection ~ 4900 9650
-Connection ~ 4900 10650
+Connection ~ 4600 9650
+Connection ~ 4600 10650
 $Comp
-L Device:R R17
+L Device:R R16
 U 1 1 6361C379
-P 1500 7300
-F 0 "R17" V 1580 7300 50  0000 C CNN
-F 1 "4.7k" V 1500 7300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 7300 50  0001 C CNN
-F 3 "" H 1500 7300 50  0001 C CNN
-	1    1500 7300
+P 1500 7200
+F 0 "R16" V 1580 7200 50  0000 C CNN
+F 1 "4.7k" V 1500 7200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 7200 50  0001 C CNN
+F 3 "" H 1500 7200 50  0001 C CNN
+	1    1500 7200
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -2142,12 +2027,8 @@ Wire Wire Line
 	1850 4900 1725 4900
 Wire Wire Line
 	1725 5100 1850 5100
-Wire Wire Line
-	1725 6300 1850 6300
-Connection ~ 1725 6300
+Connection ~ 2425 6300
 Connection ~ 1725 4900
-Wire Wire Line
-	1725 4900 1725 5100
 Text GLabel 4850 4675 2    60   Output ~ 0
 G
 Wire Wire Line
@@ -2184,10 +2065,10 @@ Connection ~ 1500 4900
 Wire Wire Line
 	1500 4900 1725 4900
 $Comp
-L 4xxx:4071 U4
+L 4xxx:4071 U3
 U 5 1 6BEF87E1
 P 1250 10150
-F 0 "U4" H 1175 10175 50  0000 L CNN
+F 0 "U3" H 1175 10175 50  0000 L CNN
 F 1 "4071" H 1150 10100 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1250 10150 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 1250 10150 50  0001 C CNN
@@ -2195,7 +2076,7 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2425 6000 1200 6000
+	2425 6000 2300 6000
 Wire Wire Line
 	2425 5200 2425 5650
 Wire Wire Line
@@ -2220,7 +2101,7 @@ L power:GND #PWR0123
 U 1 1 6C7A2579
 P 1500 5275
 F 0 "#PWR0123" H 1500 5025 50  0001 C CNN
-F 1 "GND" H 1505 5102 50  0000 C CNN
+F 1 "GND" H 1350 5200 50  0000 C CNN
 F 2 "" H 1500 5275 50  0001 C CNN
 F 3 "" H 1500 5275 50  0001 C CNN
 	1    1500 5275
@@ -2229,19 +2110,16 @@ $EndComp
 Wire Wire Line
 	1500 5250 1500 5275
 Wire Wire Line
-	2375 1875 2475 1875
-Connection ~ 2375 1775
+	2225 1875 2475 1875
 Wire Wire Line
 	1275 1975 2475 1975
 Wire Wire Line
-	1725 6900 3025 6900
-Wire Wire Line
-	1725 6300 1725 6900
+	2425 6300 2425 6825
 $Comp
-L Diode:1N4148 D1
+L Diode:1N4148 D2
 U 1 1 6C658635
 P 3550 5350
-F 0 "D1" H 3550 5450 50  0000 C CNN
+F 0 "D2" H 3550 5450 50  0000 C CNN
 F 1 "4148" H 3550 5250 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3550 5350 50  0001 C CNN
 F 3 "" H 3550 5350 50  0001 C CNN
@@ -2255,23 +2133,12 @@ Wire Wire Line
 Wire Wire Line
 	3450 5100 3550 5100
 Wire Wire Line
-	3925 7475 4100 7475
-Wire Wire Line
-	3200 7375 3025 7375
-Wire Wire Line
-	3025 7375 3025 6900
-Connection ~ 3025 6900
-Wire Wire Line
-	3025 6900 3200 6900
-Wire Wire Line
-	3800 6800 4100 6800
-Wire Wire Line
-	3800 7275 4100 7275
+	3800 6725 4025 6725
 $Comp
-L 4xxx:4071 U4
+L 4xxx:4071 U3
 U 3 1 5F8AFD71
 P 3025 8500
-F 0 "U4" H 3250 8625 50  0000 C CNN
+F 0 "U3" H 3250 8625 50  0000 C CNN
 F 1 "4071" H 3050 8500 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3025 8500 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 3025 8500 50  0001 C CNN
@@ -2279,11 +2146,8 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 7575 3925 7575
-Wire Wire Line
-	3925 7575 3925 7475
-Connection ~ 1500 7575
-Connection ~ 3925 7475
+	1500 7475 3150 7475
+Connection ~ 1500 7475
 Wire Wire Line
 	3550 5500 3550 5575
 Wire Wire Line
@@ -2329,11 +2193,6 @@ Connection ~ 2975 10650
 Wire Wire Line
 	2975 10650 3550 10650
 Wire Wire Line
-	3175 6700 3175 7175
-Wire Wire Line
-	3175 7175 3200 7175
-Connection ~ 3175 6700
-Wire Wire Line
 	10850 6400 11050 6400
 Connection ~ 10850 6400
 Wire Wire Line
@@ -2360,13 +2219,13 @@ F 3 "" H 10850 6625 50  0001 C CNN
 	1    10850 6625
 	1    0    0    -1  
 $EndComp
-Text GLabel 10250 7250 0    60   Input ~ 0
+Text GLabel 10250 6750 0    60   Input ~ 0
 10V2
 $Comp
-L Device:R R18
+L Device:R R17
 U 1 1 62601DCA
 P 11725 4450
-F 0 "R18" V 11805 4450 50  0000 C CNN
+F 0 "R17" V 11805 4450 50  0000 C CNN
 F 1 "4.7K" V 11725 4450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11655 4450 50  0001 C CNN
 F 3 "" H 11725 4450 50  0001 C CNN
@@ -2613,7 +2472,7 @@ Wire Wire Line
 Wire Wire Line
 	11850 8025 11850 7950
 Wire Wire Line
-	11625 7950 11850 7950
+	11625 7950 11725 7950
 Connection ~ 11850 7950
 Wire Wire Line
 	11850 7950 11850 7775
@@ -2631,30 +2490,19 @@ $EndComp
 $Comp
 L 4xxx:4049 U1
 U 3 1 5F8BA217
-P 2150 6300
-F 0 "U1" H 2375 6425 50  0000 C CNN
-F 1 "4049" H 2125 6300 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 2150 6300 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 2150 6300 50  0001 C CNN
-	3    2150 6300
+P 2000 6000
+F 0 "U1" H 2225 6125 50  0000 C CNN
+F 1 "4049" H 1975 6000 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 2000 6000 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 2000 6000 50  0001 C CNN
+	3    2000 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3575 3425 3575 3325
-Wire Wire Line
-	3575 3325 3675 3325
-Wire Wire Line
-	3175 3425 3575 3425
-Wire Wire Line
-	3675 3525 3575 3525
-Wire Wire Line
-	3575 3525 3575 3425
-Connection ~ 3575 3425
 $Comp
-L 4xxx:4001 U3
+L 4xxx:4001 U4
 U 2 1 699A1E35
 P 2775 1225
-F 0 "U3" H 3000 1350 50  0000 C CNN
+F 0 "U4" H 3000 1350 50  0000 C CNN
 F 1 "4001" H 2800 1225 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2775 1225 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 2775 1225 50  0001 C CNN
@@ -2662,14 +2510,14 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4071 U4
+L 4xxx:4071 U3
 U 4 1 5F8B1CB8
-P 3500 7275
-F 0 "U4" H 3725 7175 50  0000 C CNN
-F 1 "4071" H 3525 7275 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3500 7275 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 3500 7275 50  0001 C CNN
-	4    3500 7275
+P 3500 6725
+F 0 "U3" H 3725 6625 50  0000 C CNN
+F 1 "4071" H 3525 6725 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3500 6725 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 3500 6725 50  0001 C CNN
+	4    3500 6725
 	1    0    0    1   
 $EndComp
 Text GLabel 13650 5675 2    60   Output ~ 0
@@ -2687,15 +2535,171 @@ Wire Wire Line
 NoConn ~ 11625 7500
 NoConn ~ 11625 7600
 NoConn ~ 11625 7700
-NoConn ~ 11625 7800
 Wire Wire Line
 	10550 6400 10850 6400
-Wire Wire Line
-	13875 1725 14025 1725
 Text GLabel 13875 1725 0    60   Output ~ 0
 10V1
-Text GLabel 10250 6750 0    60   Input ~ 0
+Text GLabel 10250 7250 0    60   Input ~ 0
 10V1
+Wire Wire Line
+	13700 3725 14025 3725
+Wire Wire Line
+	13700 3825 14025 3825
+Wire Wire Line
+	13700 3925 14025 3925
+Wire Wire Line
+	13700 4025 14025 4025
+Wire Wire Line
+	13475 3325 14025 3325
+Wire Wire Line
+	13475 3425 14025 3425
+Wire Wire Line
+	13475 3525 14025 3525
+Wire Wire Line
+	13475 3625 14025 3625
+Wire Wire Line
+	13475 2925 14025 2925
+Wire Wire Line
+	13475 3025 14025 3025
+Wire Wire Line
+	13475 3125 14025 3125
+Wire Wire Line
+	13475 3225 14025 3225
+Wire Wire Line
+	13375 2825 14025 2825
+Wire Wire Line
+	13850 2725 14025 2725
+Wire Wire Line
+	13850 2625 14025 2625
+Wire Wire Line
+	13850 2525 14025 2525
+Wire Wire Line
+	13375 2425 14025 2425
+Wire Wire Line
+	13850 2325 14025 2325
+Wire Wire Line
+	13375 2225 14025 2225
+Wire Wire Line
+	13850 2125 14025 2125
+Wire Wire Line
+	13850 2025 14025 2025
+Wire Wire Line
+	13850 1925 14025 1925
+Wire Wire Line
+	13375 1825 14025 1825
+Wire Wire Line
+	13000 1625 14025 1625
+Wire Wire Line
+	13875 1725 14025 1725
+Wire Wire Line
+	4300 10650 4600 10650
+Wire Wire Line
+	4300 9650 4600 9650
+Wire Wire Line
+	2425 6825 3200 6825
+Wire Wire Line
+	4025 7275 4025 6725
+Wire Wire Line
+	1700 6000 1200 6000
+Wire Wire Line
+	2425 6300 2475 6300
+Connection ~ 3150 7475
+Wire Wire Line
+	3200 7325 3150 7325
+Wire Wire Line
+	3150 7325 3150 7475
+Wire Wire Line
+	3875 6925 3875 7225
+Wire Wire Line
+	3150 7475 4100 7475
+$Comp
+L 4xxx:4001 U4
+U 1 1 6272CD3C
+P 3500 7225
+F 0 "U4" H 3725 7350 50  0000 C CNN
+F 1 "4001" H 3525 7225 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3500 7225 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 3500 7225 50  0001 C CNN
+	1    3500 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 7B1D9A03
+P 2975 7200
+F 0 "#PWR0124" H 2975 6950 50  0001 C CNN
+F 1 "GND" H 2825 7125 50  0000 C CNN
+F 2 "" H 2975 7200 50  0001 C CNN
+F 3 "" H 2975 7200 50  0001 C CNN
+	1    2975 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 7200 2975 7125
+Wire Wire Line
+	2975 7125 3200 7125
+$Comp
+L power:GND #PWR0125
+U 1 1 7B428D55
+P 1725 5275
+F 0 "#PWR0125" H 1725 5025 50  0001 C CNN
+F 1 "GND" H 1875 5200 50  0000 C CNN
+F 2 "" H 1725 5275 50  0001 C CNN
+F 3 "" H 1725 5275 50  0001 C CNN
+	1    1725 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3625 3550 3625
+Wire Wire Line
+	3550 3725 3550 3625
+Wire Wire Line
+	1725 5100 1725 5275
+$Comp
+L power:GND #PWR0126
+U 1 1 7B5F1699
+P 3550 3725
+F 0 "#PWR0126" H 3550 3475 50  0001 C CNN
+F 1 "GND" H 3400 3650 50  0000 C CNN
+F 2 "" H 3550 3725 50  0001 C CNN
+F 3 "" H 3550 3725 50  0001 C CNN
+	1    3550 3725
+	1    0    0    -1  
+$EndComp
+Connection ~ 4025 6725
+Wire Wire Line
+	4025 6725 4100 6725
+Wire Wire Line
+	4025 7275 4100 7275
+Wire Wire Line
+	3875 6925 4100 6925
+Wire Wire Line
+	3800 7225 3875 7225
+Wire Wire Line
+	3175 3425 3650 3425
+Connection ~ 3175 3425
+Wire Wire Line
+	11625 7800 11725 7800
+Wire Wire Line
+	11725 7800 11725 7950
+Connection ~ 11725 7950
+Wire Wire Line
+	11725 7950 11850 7950
+$Comp
+L power:VCC #PWR0127
+U 1 1 7BB1D4AA
+P 2375 1725
+F 0 "#PWR0127" H 2375 1575 50  0001 C CNN
+F 1 "VCC" H 2250 1800 50  0000 C CNN
+F 2 "" H 2375 1725 50  0001 C CNN
+F 3 "" H 2375 1725 50  0001 C CNN
+	1    2375 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 1725 2375 1775
+Wire Wire Line
+	2375 1775 2475 1775
 Wire Bus Line
 	14975 3825 14975 4325
 Wire Bus Line
@@ -2716,4 +2720,26 @@ Wire Bus Line
 	9475 1550 9475 5325
 Wire Bus Line
 	7175 1575 7175 6400
+$Comp
+L Device:R R12
+U 1 1 63047F7B
+P 11700 2275
+F 0 "R12" V 11750 2450 50  0000 C CNN
+F 1 "1K" V 11700 2275 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11630 2275 50  0001 C CNN
+F 3 "" H 11700 2275 50  0001 C CNN
+	1    11700 2275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Memory_RAM:HM62256BLP U7
+U 1 1 6009A0CA
+P 8300 5425
+F 0 "U7" H 8300 5425 50  0000 C CNN
+F 1 "HI_MEM" H 8300 5350 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 8300 5325 50  0001 C CNN
+F 3 "https://web.mit.edu/6.115/www/document/62256.pdf" H 8300 5325 50  0001 C CNN
+	1    8300 5425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
