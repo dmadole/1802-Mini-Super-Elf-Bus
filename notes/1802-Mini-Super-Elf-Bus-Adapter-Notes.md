@@ -37,7 +37,7 @@ The normal RX and TX jumper settings for use with typical 5 volt level serial in
 
 The following are the recommended jumper settings for use with Elf/OS. These assume 32K RAM in low memory from 0000-7FFF and 32K EEPROM in high memory from 8000-FFFF, use of EF2 for serial input, and startup from ROM. These give compatibility with software intended for the Pico/Elf and so is most convenient for use with software for Elf/OS.
 
-![Super Elf Bus Adapter Jumpers](https://github.com/dmadole/1802-Mini-Super-Elf-0Bus/blob/main/photos/super-elf-bus-adapter-jumpers-elfos.jpg)
+![Super Elf Bus Adapter Jumpers](https://raw.githubusercontent.com/dmadole/1802-Mini-Super-Elf-Bus/main/photos/super-elf-bus-adapter-jumpers-elfos.jpg)
 
 If you are using an 1802/Mini specific build of Elf/OS BIOS that supports the 1854 UART with auto-detection of which port to use, you will want to set the RX GND jumper instead of RX VCC. This allows the BIOS to detect on EF2 when no cable is connected. Note that this does prevent EF2 from being used for anything else. This firmware is here:
 
