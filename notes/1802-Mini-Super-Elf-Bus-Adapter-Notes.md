@@ -33,6 +33,10 @@ The "G" key will start execution with the RAM mapped at 0000 and so can be used 
 
 The normal RX and TX jumper settings for use with typical 5 volt level serial interfaces and most software is TX and RX non-inverted, and RX at VCC. You proably also want Q inverted so that it only lights when data is transmitted. These can need to be reversed, however, depending on how software is written. Use EF3 for RX for running membership card software or EF2 for running Pico/Elf software.
 
+## Serial Port Speed
+
+The timing parameters of the standard software UART in the Elf/OS BIOS are not well suited to the Super Elf clock rate, so the highest serial speed that can be expected at 1.79 MHZ is 1200 baud, or at 3.58 MHz is 2400 baud. The nitro software UART can be loaded though to use up to 9600 baud at 1.79 Mhz or 19200 baud at 3.58 Mhz. Be sure to use the "-k" option to nitro to specify the clock rate if also specifying a baud rate, for example, "nitro -k 1790 9600"
+
 ## Jumper Settings
 
 The following are the recommended jumper settings for use with Elf/OS. These assume 32K RAM in low memory from 0000-7FFF and 32K EEPROM in high memory from 8000-FFFF, use of EF2 for serial input, and startup from ROM. These give compatibility with software intended for the Pico/Elf and so is most convenient for use with software for Elf/OS.
