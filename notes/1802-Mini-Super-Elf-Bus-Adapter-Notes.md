@@ -31,7 +31,7 @@ The "G" key will start execution with the RAM mapped at 0000 and so can be used 
 
 ## Serial Port Polarity
 
-The normal RX and TX jumper settings for use with typical 5 volt level serial interfaces and most software is TX and RX non-inverted, and RX at VCC. You proably also want Q inverted so that it only lights when data is transmitted. These can need to be reversed, however, depending on how software is written. Use EF3 for RX for running membership card software or EF2 for running Pico/Elf software.
+The normal RX and TX jumper settings for use with typical 5 volt level serial interfaces and most software is TX and RX non-inverted, and RX at VCC. These can need to be reversed, however, depending on how software is written. Use EF3 for RX for running membership card software or EF2 for running Pico/Elf software.
 
 ## Serial Port Speed
 
