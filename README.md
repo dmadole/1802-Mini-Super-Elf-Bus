@@ -18,5 +18,7 @@ Gerber files for the PCBs and PDF schematics can be found in [Releases](https://
 
 BOMS and any applicable errata or other notes can be found in [notes](https://github.com/dmadole/1802-Mini-Super-Elf-Bus/tree/main/notes).
 
+For availability of kits and bare PCBs please see http://madole.net/1802/mini/kits
+
 ![1802/Mini Super Elf Bus Adapter](https://github.com/dmadole/1802-Mini-Super-Elf-Bus/raw/main/photos/1802-mini-super-elf-bus-adapter.jpg)
 ![Super Elf with 1802/Mini Cards](https://github.com/dmadole/1802-Mini-Super-Elf-Bus/raw/main/photos/super-elf-with-1802-mini-cards.jpg)
